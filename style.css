@@ -1,0 +1,61 @@
+*{
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background: linear-gradient(135deg, #dfb4cf 0%, #a44ab0 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  .container h1 {
+    text-align: center;
+  }
+
+  .container input{
+    border-radius: 15px;
+    width: 300px;
+    padding: .5rem 4rem .5rem .5rem;
+}
+
+  .todos{
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 30%
+  }
+
+  .todo{
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .add label{
+    padding: 2rem 0;
+  }
+
+  .add input{
+    border-radius: 15px;
+    width: 300px;
+    padding: .5rem 4rem .5rem .5rem;
+}
+  
+
+  .delete{
+    cursor: pointer;
+  }
+  .filtered{
+    display: none !important;
+  }
